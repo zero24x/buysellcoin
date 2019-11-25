@@ -89,8 +89,8 @@ public:
         LogPrintf("Display nonce  %s\n", genesis.nNonce);
         LogPrintf("Display time  %s\n", genesis.nTime);
 
-		assert(genesis.hashMerkleRoot == uint256("0xce4d3a19891b031016539c262f50ae3518306cdf9e42b8c87fbdb33e1b60c95d"));
-		assert(hashGenesisBlock == uint256("0xc3adca8fc708397761c216996fd2273d788905261756e2ccd7bb0f2817a0ac06"));
+		assert(genesis.hashMerkleRoot == uint256("0xc3adca8fc708397761c216996fd2273d788905261756e2ccd7bb0f2817a0ac06"));
+		assert(hashGenesisBlock == uint256("0xce4d3a19891b031016539c262f50ae3518306cdf9e42b8c87fbdb33e1b60c95d"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 26);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
