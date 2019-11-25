@@ -56,17 +56,17 @@ public:
 		// The message start string is designed to be unlikely to occur in normal data.
 		// The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 		// a large 4-byte int at any alignment.
-		pchMessageStart[0] = 0xbe;
+		pchMessageStart[0] = 0xbf;
 		pchMessageStart[1] = 0x2a;
 		pchMessageStart[2] = 0x53;
 		pchMessageStart[3] = 0x6b;
-		vAlertPubKey = ParseHex("04445daae44924c1ee1e715629c3254c92c0c06a77716dbbd8551036551f4f23b4d5bff603f064ac5516529d25e4c582e65c484e159503365fb694add9f4cd2334");
-		nDefaultPort = 42515;
-		nRPCPort = 42516;
+		vAlertPubKey = ParseHex("04d212a835e1ed5f7465c0e4a619f7f86cb5c8d80af2b25408b524308a182c9a08d2b2641b4cbbdd175a72fb6f0587913eb9b78b047334fe0b79c406fabc3a5d3c");
+		nDefaultPort = 42517;
+		nRPCPort = 42518;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
 
-		const char* pszTimestamp = "start BuySellCoin coin on Sunday 19th of August 2018 12-35-14 AM";
+		const char* pszTimestamp = "start New BuySellCoin-2 on Sunday 24th of November 2019 6-34-00 PM";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -99,23 +99,15 @@ public:
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-		vSeeds.push_back(CDNSSeedData("0", "95.216.33.137"));
-		vSeeds.push_back(CDNSSeedData("1", "207.180.245.239"));
-		vSeeds.push_back(CDNSSeedData("2", "95.216.38.85"));
-		vSeeds.push_back(CDNSSeedData("3", "188.42.33.124"));
-		vSeeds.push_back(CDNSSeedData("4", "95.216.38.5"));
-		vSeeds.push_back(CDNSSeedData("5", "124.59.73.108"));
-		vSeeds.push_back(CDNSSeedData("6", "46.4.178.67"));
-		vSeeds.push_back(CDNSSeedData("7", "95.216.125.226"));
-		vSeeds.push_back(CDNSSeedData("8", "145.239.39.138"));
+		vSeeds.push_back(CDNSSeedData("0", "212.237.19.172"));
+		vSeeds.push_back(CDNSSeedData("1", "80.211.10.160"));
+		//vSeeds.push_back(CDNSSeedData("2", ""));
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 		nPoolMaxTransactions = 3;
-		//strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
-		//strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
-		strDarksendPoolDummyAddress = "hFoQDUrp63QWqFhjEr3Fmc4ubHRhyzjKUC";
+		strDarksendPoolDummyAddress = "bFoQDUrp63QWqFhjEr3Fmc4ubHRhyzjKUC";
 		nLastPOWBlock = 10000000;
-		nPOSStartBlock = 5000;
+		nPOSStartBlock = 5;
 	}
 
 
@@ -147,9 +139,9 @@ public:
 		pchMessageStart[2] = 0xa6;
 		pchMessageStart[3] = 0x2c;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-		vAlertPubKey = ParseHex("04445daae44924c1ee1e715629c3254c92c0c06a77716dbbd8551036551f4f23b4d5bff603f064ac5516529d25e4c582e65c484e159503365fb694add9f4cd2334");
-		nDefaultPort = 31318;
-		nRPCPort = 31319;
+		vAlertPubKey = ParseHex("04d212a835e1ed5f7465c0e4a619f7f86cb5c8d80af2b25408b524308a182c9a08d2b2641b4cbbdd175a72fb6f0587913eb9b78b047334fe0b79c406fabc3a5d3c");
+		nDefaultPort = 31320;
+		nRPCPort = 31321;
 		strDataDir = "testnet";
 
 		// Modify the testnet genesis block so the timestamp is valid for a later start.
