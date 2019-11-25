@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building Buysellcoin QT, the
+See readme-qt.rst for instructions on building Buysell QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -76,9 +76,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-Buysellcoin
+Buysell
 -------
 DOS prompt:
-cd \Buysellcoin\src
+cd \Buysell\src
 mingw32-make -f makefile.mingw
-strip buysellcoind.exe
+strip buyselld.exe

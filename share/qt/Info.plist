@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>Buysellcoin.icns</string>
+	<string>Buysell.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Buysellcoin-Qt</string>
+	<string>Buysell-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Buysellcoin-Qt</string>
+	<string>Buysell-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.Buysellcoin.Buysellcoin-Qt</string>
+	<string>co.Buysell.Buysell-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.Buysellcoin.BuysellcoinPayment</string>
+            <string>co.Buysell.BuysellPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>Buysellcoin</string>
+              <string>Buysell</string>
             </array>
           </dict>
         </array>

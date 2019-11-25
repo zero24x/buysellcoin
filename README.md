@@ -1,12 +1,12 @@
 
-Buysellcoin development tree
+Buysell development tree
 
-Buysellcoin is a PoS-based cryptocurrency.
+Buysell is a PoS-based cryptocurrency.
 
-BUYSELLCOIN is dependent upon libsecp256k1 by sipa, the sources for which can be found here:
+BUYSELL is dependent upon libsecp256k1 by sipa, the sources for which can be found here:
 https://github.com/bitcoin/secp256k1
 
-#Buysellcoin Coin Specification
+#Buysell Coin Specification
 
 Coin Name : BuySell
 

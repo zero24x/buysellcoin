@@ -426,7 +426,7 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>Buysellcoin - Debug window</string>
+   <string>Buysell - Debug window</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -448,7 +448,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Buysellcoin Core</string>
+          <string>Buysell Core</string>
          </property>
         </widget>
        </item>
@@ -734,7 +734,7 @@
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the Buysellcoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the Buysell debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -760,7 +760,7 @@
        <item row="17" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the Buysellcoin-Qt help message to get a list with possible Buysellcoin command-line options.</string>
+          <string>Show the Buysell-Qt help message to get a list with possible Buysell command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>

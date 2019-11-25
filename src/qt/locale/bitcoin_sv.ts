@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Buysellcoin</source>
-        <translation>Vad du behöver veta om Buysellcoin</translation>
+        <source>About Buysell</source>
+        <translation>Vad du behöver veta om Buysell</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Buysellcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Buysellcoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Buysell&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Buysell&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Buysellcoin developers</source>
+Copyright © 2015-2017 The Buysell developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Buysellcoin developers</translation>
+Copyright © 2015-2017 The Buysell developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Buysellcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina Buysellcoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your Buysell addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina Buysell adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Buysellcoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger Buysellcoin adressen</translation>
+        <source>Sign a message to prove you own a Buysell address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger Buysell adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Buysellcoin address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik Buysellcoin adress</translation>
+        <source>Verify a message to ensure it was signed with a specified Buysell address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik Buysell adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Buysellcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Buysellcoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>Buysell will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Buysell plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Buysellcoin</source>
-        <translation>Visa information om Buysellcoin</translation>
+        <source>Show information about Buysell</source>
+        <translation>Visa information om Buysell</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Buysellcoin address</source>
-        <translation>Skicka coins till en Buysellcoin adress</translation>
+        <source>Send coins to a Buysell address</source>
+        <translation>Skicka coins till en Buysell adress</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Buysellcoin</source>
-        <translation>Modifiera konfigurations-alternativ för Buysellcoin</translation>
+        <source>Modify configuration options for Buysell</source>
+        <translation>Modifiera konfigurations-alternativ för Buysell</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Buysellcoin</source>
-        <translation>Buysellcoin</translation>
+        <source>Buysell</source>
+        <translation>Buysell</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Buysellcoin</source>
-        <translation>&amp;Om Buysellcoin</translation>
+        <source>&amp;About Buysell</source>
+        <translation>&amp;Om Buysell</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Buysellcoin client</source>
-        <translation>Buysellcoin klient</translation>
+        <source>Buysell client</source>
+        <translation>Buysell klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Buysellcoin network</source>
-        <translation><numerusform>%n aktiv anslutning till Buysellcoin nätverket</numerusform><numerusform>%n aktiva anslutning till Buysellcoin nätverket</numerusform></translation>
+        <source>%n active connection(s) to Buysell network</source>
+        <translation><numerusform>%n aktiv anslutning till Buysell nätverket</numerusform><numerusform>%n aktiva anslutning till Buysell nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Buysellcoin address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig Buysellcoin adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Buysell address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig Buysell adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Buysellcoin can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. Buysellcoin kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. Buysell can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. Buysell kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1018,7 +1018,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna Buysellcoin-adress</translation>
+        <translation>Namnet som kopplats till denna Buysell-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1057,8 +1057,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Buysellcoin address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Buysellcoin adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Buysell address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Buysell adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Buysellcoin-Qt</source>
-        <translation>Buysellcoin-Qt</translation>
+        <source>Buysell-Qt</source>
+        <translation>Buysell-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Buysellcoin after logging in to the system.</source>
-        <translation>Starta Buysellcoin automatiskt vid inloggning.</translation>
+        <source>Automatically start Buysell after logging in to the system.</source>
+        <translation>Starta Buysell automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Buysellcoin on system login</source>
-        <translation>&amp;Starta Buysellcoin vid inloggning</translation>
+        <source>&amp;Start Buysell on system login</source>
+        <translation>&amp;Starta Buysell vid inloggning</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Buysellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Buysellcoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the Buysell client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Buysell klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Buysellcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till Buysellcoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the Buysell network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till Buysell nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Buysellcoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av Buysellcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Buysell.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av Buysell.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Buysellcoin.</source>
-        <translation>Inställningen börjar gälla efter omstart av Buysellcoin.</translation>
+        <source>This setting will take effect after restarting Buysell.</source>
+        <translation>Inställningen börjar gälla efter omstart av Buysell.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buysellcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med Buysellcoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buysell network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med Buysell nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Buysellcoin-Qt help message to get a list with possible Buysellcoin command-line options.</source>
-        <translation>Visa Buysellcoin-Qt hjälp meddelandet för att få en lista över möjliga Buysellcoin kommandoradsalternativ.</translation>
+        <source>Show the Buysell-Qt help message to get a list with possible Buysell command-line options.</source>
+        <translation>Visa Buysell-Qt hjälp meddelandet för att få en lista över möjliga Buysell kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Buysellcoin - Debug window</source>
-        <translation>Buysellcoin - Felsökningsfönster</translation>
+        <source>Buysell - Debug window</source>
+        <translation>Buysell - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Buysellcoin Core</source>
-        <translation>Buysellcoin Core</translation>
+        <source>Buysell Core</source>
+        <translation>Buysell Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Buysellcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Buysellcoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the Buysell debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Buysell felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Buysellcoin RPC console.</source>
-        <translation>Välkommen till Buysellcoin RPC konsoll.</translation>
+        <source>Welcome to the Buysell RPC console.</source>
+        <translation>Välkommen till Buysell RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BUYSELLCOIN</source>
-        <translation>123.456 BUYSELLCOIN {0.00 ?}</translation>
+        <source>0.00 BUYSELL</source>
+        <translation>123.456 BUYSELL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BUYSELLCOIN</source>
-        <translation>123.456 BUYSELLCOIN</translation>
+        <source>123.456 BUYSELL</source>
+        <translation>123.456 BUYSELL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Buysellcoin adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Buysell adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Buysellcoin address</source>
-        <translation>VARNING: Ogiltig Buysellcoin adress</translation>
+        <source>WARNING: Invalid Buysell address</source>
+        <translation>VARNING: Ogiltig Buysell adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Buysellcoin adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Buysell adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Buysellcoin address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna Buysellcoin adressen</translation>
+        <source>Sign the message to prove you own this Buysell address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna Buysell adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Buysellcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna Buysellcoin adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Buysell address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna Buysell adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Buysellcoin adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Buysell adress (t.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Buysellcoin signature</source>
-        <translation>Fyll i Buysellcoin signatur</translation>
+        <source>Enter Buysell signature</source>
+        <translation>Fyll i Buysell signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Buysellcoin version</source>
-        <translation>Buysellcoin version</translation>
+        <source>Buysell version</source>
+        <translation>Buysell version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or buysellcoind</source>
-        <translation>Skicka kommando till -server eller buysellcoind</translation>
+        <source>Send command to -server or buyselld</source>
+        <translation>Skicka kommando till -server eller buyselld</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Buysellcoin.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: Buysellcoin.conf)</translation>
+        <source>Specify configuration file (default: Buysell.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: Buysell.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: buysellcoind.pid)</source>
-        <translation>Ange pid filen (standard buysellcoind.pid)</translation>
+        <source>Specify pid file (default: buyselld.pid)</source>
+        <translation>Ange pid filen (standard buyselld.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Buysellcoinrpc
+rpcuser=Buysellrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Buysell Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Buysellcoin will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. Buysellcoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Buysell will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. Buysell kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Buysellcoin is shutting down.</source>
+        <source>Initialization sanity check failed. Buysell is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Buysellcoin</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av Buysellcoin krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Buysell</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av Buysell krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Buysellcoin to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om Buysellcoin för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart Buysell to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om Buysell för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Buysellcoin is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. Buysellcoin är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. Buysell is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. Buysell är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Buysellcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Buysell is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

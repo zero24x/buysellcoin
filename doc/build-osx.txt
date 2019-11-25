@@ -7,12 +7,12 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X buysellcoind build instructions
+Mac OS X buyselld build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building Buysellcoin QT, the
+See readme-qt.rst for instructions on building Buysell QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -27,7 +27,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone git@github.com:rat4/Buysellcoin.git Buysellcoin
+git clone git@github.com:rat4/Buysell.git Buysell
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build buysellcoind:
+4.  Now you should be able to build buyselld:
 
-cd Buysellcoin/src
+cd Buysell/src
 make -f makefile.osx
 
 Run:
-  ./buysellcoind --help  # for a list of command-line options.
+  ./buyselld --help  # for a list of command-line options.
 Run
-  ./buysellcoind -daemon # to start the Buysellcoin daemon.
+  ./buyselld -daemon # to start the Buysell daemon.
 Run
-  ./buysellcoind help # When the daemon is running, to get a list of RPC commands
+  ./buyselld help # When the daemon is running, to get a list of RPC commands

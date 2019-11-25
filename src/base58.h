@@ -92,23 +92,23 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded Buysellcoin addresses.
+/** base58-encoded Buysell addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CBuysellcoinAddress : public CBase58Data {
+class CBuysellAddress : public CBase58Data {
 public:
     bool Set(const CKeyID &id);
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
 
-    CBuysellcoinAddress() {}
-    CBuysellcoinAddress(const CTxDestination &dest) { Set(dest); }
-    CBuysellcoinAddress(const std::string& strAddress) { SetString(strAddress); }
-    CBuysellcoinAddress(const char* pszAddress) { SetString(pszAddress); }
+    CBuysellAddress() {}
+    CBuysellAddress(const CTxDestination &dest) { Set(dest); }
+    CBuysellAddress(const std::string& strAddress) { SetString(strAddress); }
+    CBuysellAddress(const char* pszAddress) { SetString(pszAddress); }
 
     CTxDestination Get() const;
     bool GetKeyID(CKeyID &keyID) const;
@@ -118,7 +118,7 @@ public:
 /**
  * A base58-encoded secret key
  */
-class CBuysellcoinSecret : public CBase58Data
+class CBuysellSecret : public CBase58Data
 {
 public:
     void SetKey(const CKey& vchSecret);
@@ -127,11 +127,11 @@ public:
     bool SetString(const char* pszSecret);
     bool SetString(const std::string& strSecret);
 
-    CBuysellcoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
-    CBuysellcoinSecret() {}
+    CBuysellSecret(const CKey& vchSecret) { SetKey(vchSecret); }
+    CBuysellSecret() {}
 };
 
-template<typename K, int Size, CChainParams::Base58Type Type> class CBuysellcoinExtKeyBase : public CBase58Data
+template<typename K, int Size, CChainParams::Base58Type Type> class CBuysellExtKeyBase : public CBase58Data
 {
 public:
     void SetKey(const K &key) {
@@ -146,15 +146,15 @@ public:
         return ret;
     }
 
-    CBuysellcoinExtKeyBase(const K &key) {
+    CBuysellExtKeyBase(const K &key) {
         SetKey(key);
     }
 
-    CBuysellcoinExtKeyBase() {}
+    CBuysellExtKeyBase() {}
 };
 
-typedef CBuysellcoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CBuysellcoinExtKey;
-typedef CBuysellcoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CBuysellcoinExtPubKey;
+typedef CBuysellExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CBuysellExtKey;
+typedef CBuysellExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CBuysellExtPubKey;
 
 /** base58-encoded Bitcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).

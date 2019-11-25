@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Buysellcoin Secure Messaging from Qt view code. */
+/** Interface to Buysell Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT
