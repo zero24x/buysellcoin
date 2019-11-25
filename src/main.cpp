@@ -1360,7 +1360,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
     int64_t nSubsidy = 0 * COIN;
 
     if (nHeight == 1) {
-        nSubsidy = 1000 * COIN; // premine for 1st mn launching to start PoS blocks
+        nSubsidy = 2002 * COIN; // premine for 1st mn launching to start PoS blocks
     }
     else if (nHeight > 1 && nHeight <= 100) {
         nSubsidy = 0.0001 * COIN; // for secure mn start
@@ -4510,7 +4510,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
-    int64_t ret = blockValue * 17/20;
+    int64_t ret = blockValue * 99/100;
 
     return ret;
 }
