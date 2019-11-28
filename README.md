@@ -22,13 +22,13 @@ Block Size : 2MB
 
 Block POS Reward: 1-4 BULL
 
-Rewards MasterNode 85% 
+Rewards MasterNode 99% 
 
-Rewards PoS 15%
+Rewards PoS 1%
 
-Block POW Reward: 0.1 BULL
+Block POW Reward: 0.0001 BULL
 
-Total Coins: 11,264,000
+Total Coins: 1,000,000
 
 Total Premine: 1.73%
 
@@ -36,7 +36,6 @@ Minimum Stake Age : 6 Hour
 
 Coin Maturity : 89 Blocks
 
-RPC Port: 42516
+RPC Port: 42518
 
-Network Port: 42515
-
+Network Port: 42517
