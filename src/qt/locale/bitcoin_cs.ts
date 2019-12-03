@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Buysellcoin</source>
-        <translation>O Buysellcoinu</translation>
+        <source>About Buysell</source>
+        <translation>O Buysellu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Buysellcoin&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;Buysellcoinu&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Buysell&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;Buysellu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Buysellcoin developers</source>
+Copyright © 2015-2017 The Buysell developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Buysellcoin developers</translation>
+Copyright © 2015-2017 The Buysell developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Buysellcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé Buysellcoin adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your Buysell addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé Buysell adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Buysellcoin address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Buysellcoin adresu.</translation>
+        <source>Sign a message to prove you own a Buysell address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Buysell adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Buysellcoin address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Buysellcoin adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified Buysell address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Buysell adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Buysellcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se Buysellcoin nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>Buysell will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se Buysell nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Buysellcoin</source>
-        <translation>Zobraz informace a Buysellcoinu</translation>
+        <source>Show information about Buysell</source>
+        <translation>Zobraz informace a Buysellu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Buysellcoin address</source>
-        <translation>Odešli mince na Buysellcoin adresu</translation>
+        <source>Send coins to a Buysell address</source>
+        <translation>Odešli mince na Buysell adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Buysellcoin</source>
-        <translation>Uprav možnosti konfigurace pro Buysellcoin</translation>
+        <source>Modify configuration options for Buysell</source>
+        <translation>Uprav možnosti konfigurace pro Buysell</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Buysellcoin</source>
-        <translation>Buysellcoin</translation>
+        <source>Buysell</source>
+        <translation>Buysell</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Buysellcoin</source>
-        <translation>&amp;O Buysellcoinu</translation>
+        <source>&amp;About Buysell</source>
+        <translation>&amp;O Buysellu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Buysellcoin client</source>
-        <translation>Buysellcoin klient</translation>
+        <source>Buysell client</source>
+        <translation>Buysell klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Buysellcoin network</source>
-        <translation><numerusform>%n aktivní spojení do Buysellcoin sítě</numerusform><numerusform>%n aktivních spojení do Buysellcoin sítě</numerusform><numerusform>%n aktivních spojení do Buysellcoin sítě</numerusform></translation>
+        <source>%n active connection(s) to Buysell network</source>
+        <translation><numerusform>%n aktivní spojení do Buysell sítě</numerusform><numerusform>%n aktivních spojení do Buysell sítě</numerusform><numerusform>%n aktivních spojení do Buysell sítě</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Buysellcoin address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Buysellcoin adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Buysell address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Buysell adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Buysellcoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. Buysellcoin již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. Buysell can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. Buysell již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Buysellcoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Buysellcoin adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Buysell address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Buysell adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Buysellcoin-Qt</source>
-        <translation>Buysellcoin-Qt</translation>
+        <source>Buysell-Qt</source>
+        <translation>Buysell-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Buysellcoin after logging in to the system.</source>
-        <translation>Automaticky spustit Buysellcoin po přihlášení do systému.</translation>
+        <source>Automatically start Buysell after logging in to the system.</source>
+        <translation>Automaticky spustit Buysell po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Buysellcoin on system login</source>
-        <translation>&amp;Spustit Buysellcoin při přihlášení do systému</translation>
+        <source>&amp;Start Buysell on system login</source>
+        <translation>&amp;Spustit Buysell při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Buysellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port Buysellcoin klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the Buysell client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port Buysell klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Buysellcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připoj se do sítě Buysellcoin přes SOCKS proxy (např. při připojení přes Tor)</translation>
+        <source>Connect to the Buysell network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připoj se do sítě Buysell přes SOCKS proxy (např. při připojení přes Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Buysellcoin.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Buysellcoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Buysell.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Buysellu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Buysellcoin.</source>
-        <translation>Nastavení se projeví až po restartu Buysellcoinu.</translation>
+        <source>This setting will take effect after restarting Buysell.</source>
+        <translation>Nastavení se projeví až po restartu Buysellu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buysellcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Buysellcoin sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buysell network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Buysell sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Buysellcoin-Qt help message to get a list with possible Buysellcoin command-line options.</source>
-        <translation>Zobrazit Buysellcoin-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the Buysell-Qt help message to get a list with possible Buysell command-line options.</source>
+        <translation>Zobrazit Buysell-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Buysellcoin - Debug window</source>
-        <translation>Buysellcoin - Ladící okno</translation>
+        <source>Buysell - Debug window</source>
+        <translation>Buysell - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Buysellcoin Core</source>
-        <translation>Jádro Buysellcoinu</translation>
+        <source>Buysell Core</source>
+        <translation>Jádro Buysellu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Buysellcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor Buysellcoinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the Buysell debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor Buysellu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Buysellcoin RPC console.</source>
-        <translation>Vítej v Buysellcoin RPC konzoli.</translation>
+        <source>Welcome to the Buysell RPC console.</source>
+        <translation>Vítej v Buysell RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BUYSELLCOIN</source>
-        <translation>123.456 BUYSELLCOIN {0.00 ?}</translation>
+        <source>0.00 BUYSELL</source>
+        <translation>123.456 BUYSELL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BUYSELLCOIN</source>
-        <translation>123.456 BUYSELLCOIN</translation>
+        <source>123.456 BUYSELL</source>
+        <translation>123.456 BUYSELL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Napiš Buysellcoin adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Napiš Buysell adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Buysellcoin address</source>
-        <translation>UPOZORNĚNÍ: Neplatná Buysellcoin adresa</translation>
+        <source>WARNING: Invalid Buysell address</source>
+        <translation>UPOZORNĚNÍ: Neplatná Buysell adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Buysellcoin adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Buysell adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Buysellcoin address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Buysellcoin adresu</translation>
+        <source>Sign the message to prove you own this Buysell address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Buysell adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Buysellcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Buysellcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Buysell address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Buysell adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Buysellcoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Buysellcoin adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Buysell address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Buysell adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Buysellcoin signature</source>
-        <translation>Zadej Buysellcoin podpis</translation>
+        <source>Enter Buysell signature</source>
+        <translation>Zadej Buysell podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Buysellcoin version</source>
-        <translation>Verze Buysellcoinu</translation>
+        <source>Buysell version</source>
+        <translation>Verze Buysellu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or buysellcoind</source>
-        <translation>Pošli příkaz na -server nebo buysellcoind</translation>
+        <source>Send command to -server or buyselld</source>
+        <translation>Pošli příkaz na -server nebo buyselld</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Buysellcoin.conf)</source>
-        <translation>Urči konfigurační soubor (výchozí: Buysellcoin.conf)</translation>
+        <source>Specify configuration file (default: Buysell.conf)</source>
+        <translation>Urči konfigurační soubor (výchozí: Buysell.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: buysellcoind.pid)</source>
-        <translation>Urči pid soubor (výchozí: buysellcoind.pid)</translation>
+        <source>Specify pid file (default: buyselld.pid)</source>
+        <translation>Urči pid soubor (výchozí: buyselld.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Buysellcoinrpc
+rpcuser=Buysellrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Buysell Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Buysellcoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Buysellcoin nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Buysell will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Buysell nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Buysellcoin is shutting down.</source>
+        <source>Initialization sanity check failed. Buysell is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Buysellcoin</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Buysellcoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Buysell</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Buysellu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Buysellcoin to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj Buysellcoin pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart Buysell to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj Buysell pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Buysellcoin is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. Buysellcoin nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. Buysell is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. Buysell nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Buysellcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Buysellcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Buysell is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

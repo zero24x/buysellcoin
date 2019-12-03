@@ -432,7 +432,7 @@
    <item>
     <widget class="QLabel" name="labelExplanation">
      <property name="text">
-      <string>These are your Buysellcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
+      <string>These are your Buysell addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -914,7 +914,7 @@
      <item>
       <widget class="QPushButton" name="signMessage">
        <property name="toolTip">
-        <string>Sign a message to prove you own a Buysellcoin address</string>
+        <string>Sign a message to prove you own a Buysell address</string>
        </property>
        <property name="text">
         <string>Sign &amp;Message</string>
@@ -924,7 +924,7 @@
      <item>
       <widget class="QPushButton" name="verifyMessage">
        <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified Buysellcoin address</string>
+        <string>Verify a message to ensure it was signed with a specified Buysell address</string>
        </property>
        <property name="text">
         <string>&amp;Verify Message</string>

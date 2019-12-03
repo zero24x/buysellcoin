@@ -577,10 +577,10 @@
           </palette>
          </property>
          <property name="toolTip">
-          <string>Automatically start Buysellcoin after logging in to the system.</string>
+          <string>Automatically start Buysell after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start Buysellcoin on system login</string>
+          <string>&amp;Start Buysell on system login</string>
          </property>
         </widget>
        </item>
@@ -638,12 +638,12 @@
           <string notr="true"/>
          </property>
          <property name="text">
-          <string>Amount of Buysellcoin to keep anonymized</string>
+          <string>Amount of Buysell to keep anonymized</string>
          </property>
         </widget>
        </item>
        <item row="7" column="1">
-        <widget class="QSpinBox" name="anonymizeBuysellcoin">
+        <widget class="QSpinBox" name="anonymizeBuysell">
          <property name="minimum">
           <number>2</number>
          </property>
@@ -668,7 +668,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the Buysellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the Buysell client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -678,7 +678,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the Buysellcoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</string>
+          <string>Connect to the Buysell network through a SOCKS5 proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy:</string>
@@ -832,7 +832,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting Buysellcoin.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Buysell.</string>
            </property>
           </widget>
          </item>

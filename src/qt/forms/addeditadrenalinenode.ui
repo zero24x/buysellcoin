@@ -426,7 +426,7 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>Add/Edit Buysellcoin Node</string>
+   <string>Add/Edit Buysell Node</string>
   </property>
   <property name="modal">
    <bool>true</bool>

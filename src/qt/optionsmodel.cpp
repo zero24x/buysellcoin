@@ -67,13 +67,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeBuysellcoinAmount"))
-        settings.setValue("nAnonymizeBuysellcoinAmount", 1000);
-    nAnonymizeBuysellcoinAmount = settings.value("nAnonymizeBuysellcoinAmount").toLongLong();
+    if (!settings.contains("nAnonymizeBuysellAmount"))
+        settings.setValue("nAnonymizeBuysellAmount", 1000);
+    nAnonymizeBuysellAmount = settings.value("nAnonymizeBuysellAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeBuysellcoinAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeBuysellcoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeBuysellAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeBuysellAmount").toString().toStdString());
 
 
 
@@ -207,8 +207,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeBuysellcoinAmount:
-            return QVariant(nAnonymizeBuysellcoinAmount);
+        case AnonymizeBuysellAmount:
+            return QVariant(nAnonymizeBuysellAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -319,10 +319,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeBuysellcoinAmount:
-            nAnonymizeBuysellcoinAmount = value.toInt();
-            settings.setValue("nAnonymizeBuysellcoinAmount", nAnonymizeBuysellcoinAmount);
-            emit AnonymizeBuysellcoinAmountChanged(nAnonymizeBuysellcoinAmount);
+        case AnonymizeBuysellAmount:
+            nAnonymizeBuysellAmount = value.toInt();
+            settings.setValue("nAnonymizeBuysellAmount", nAnonymizeBuysellAmount);
+            emit AnonymizeBuysellAmountChanged(nAnonymizeBuysellAmount);
             break;
         default:
             break;

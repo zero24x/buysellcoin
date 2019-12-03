@@ -453,7 +453,7 @@
        </property>
        <widget class="QWidget" name="tab">
         <attribute name="title">
-         <string>Buysellcoin Network</string>
+         <string>Buysell Network</string>
         </attribute>
         <layout class="QGridLayout" name="gridLayout">
          <item row="1" column="0">
@@ -513,7 +513,7 @@
            <item>
             <widget class="QLabel" name="label_2">
              <property name="text">
-              <string>Buysellcoin Node Count:</string>
+              <string>Buysell Node Count:</string>
              </property>
             </widget>
            </item>

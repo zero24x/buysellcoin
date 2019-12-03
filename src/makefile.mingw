@@ -10,15 +10,15 @@ BOOST_SUFFIX?=-mgw49-mt-s-1_57
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"d:/project/Buysellcoin/include/boost-1_57" \
- -I"d:/project/Buysellcoin/include/miniupnpc" \
- -I"d:/project/Buysellcoin/include" \
- -I"d:/project/Buysellcoin"
+ -I"d:/project/Buysell/include/boost-1_57" \
+ -I"d:/project/Buysell/include/miniupnpc" \
+ -I"d:/project/Buysell/include" \
+ -I"d:/project/Buysell"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"d:/project/Buysellcoin/lib" \
- -L"d:/project/Buysellcoin"
+ -L"d:/project/Buysell/lib" \
+ -L"d:/project/Buysell"
 
 LIBS= \
  -l leveldb \
@@ -126,7 +126,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: buysellcoind.exe
+all: buyselld.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a -l shlwapi
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -142,12 +142,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-buysellcoind.exe: $(OBJS:obj/%=obj/%)
+buyselld.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f buysellcoind.exe
+	-rm -f buyselld.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=NATIVE_WINDOWS $(MAKE) clean && cd ..
 
