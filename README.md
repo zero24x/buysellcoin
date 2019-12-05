@@ -20,17 +20,13 @@ Block Time : ~100 sec
 
 Block Size : 2MB
 
-Block POS Reward: 1-4 BULL
+Block POS Reward: 0.01 - 0.65
 
 Rewards MasterNode 99% 
 
 Rewards PoS 1%
 
-Block POW Reward: 0.0001 BULL
-
 Total Coins: 1,000,000
-
-Minimum Stake Age : 6 Hour
 
 Coin Maturity : 89 Blocks
 
