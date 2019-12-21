@@ -12,7 +12,7 @@ Coin Name : BuySell
 
 Ticker : BULL
 
-Coin Type : POW/POS/MN
+Coin Type : POS/MN
 
 Algorithm : Scrypt
 
