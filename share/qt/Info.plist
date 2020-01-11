@@ -11,7 +11,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Buysell-Qt</string>
+	<string>Buysell</string>
 	<key>CFBundleIdentifier</key>
 	<string>co.Buysell.Buysell-Qt</string>
         <key>CFBundleURLTypes</key>
